@@ -32,3 +32,10 @@ body {
     transform: translateY(-3px) scale(1.1);
  }
 
+.div1, .div2, .div3, .div4, .div5, .div6 {
+    background-color: rgba(220, 20, 60, 0.164);
+}
+
+.div7, .div8, .div9, .div10, .div11, .div12 {
+    background-color:rgba(70, 131, 180, 0.372);
+}

@@ -4,3 +4,23 @@
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
 }
 
+.container {
+    display: grid;
+    gap: 1rem; 
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    grid-auto-rows: 75px;
+    grid-auto-flow: dense;
+}
+
+.long {
+    grid-column: span 2;
+}
+
+.high {
+    grid-row: auto / span 2;
+}
+
+.big {
+    grid-row: span 2;
+    grid-column: span 2;
+}
